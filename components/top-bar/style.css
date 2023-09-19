@@ -15,7 +15,7 @@ body {
 }
 
 .top-bar li {
-    padding: 1%;
+    padding: 0.7% 1%;
     list-style: none;
 }
 
@@ -30,6 +30,14 @@ body {
     margin-right: 8%;
 }
 
+.investment-option {
+    color: #EC7404;
+    border: 2px solid #EC7404;
+    padding: 5px 10px;
+    padding-right: 40px;
+    border-radius: 20px;
+}
+
 .top-bar li a p {
     font-family: 'SF Pro Display', sans-serif;
     color: black;
@@ -37,5 +45,5 @@ body {
 
 @font-face {
     font-family: 'SF Pro Display';
-    src: url('../../fonts/SF-Pro-Display-Semibold.ttf') format('truetype');
+    src: url('../../fonts/SF-Pro-Display-Regular.ttf') format('truetype');
   }
