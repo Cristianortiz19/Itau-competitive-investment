@@ -12,10 +12,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .top-bar li {
-    padding: 0.7% 1%;
+    padding: 10px 1%;
     list-style: none;
 }
 
