@@ -22,26 +22,25 @@ class TopBar extends HTMLElement {
         <ul class="top-bar">
             <li>
                 <a href="">
-                    <img src="../../public/icons/top-bar-people.svg" alt="">
+                    <img src="../src/public/icons/top-bar-people.svg" alt="">
                     <p>Personas</p>
                 </a>
             </li>
             <li>
                 <a href="">
-                    <img src="../../public/icons/top-bar-business.svg" alt="">
+                    <img src="../src/public/icons/top-bar-business.svg" alt="">
                     <p>Empresas</p>
                 </a>
             </li>
             <li>
                 <a href="" class="investment-option">
-                    <img src="../../public/icons/top-bar-investment.svg" alt="">
+                    <img src="../src/public/icons/top-bar-investment.svg" alt="">
                     
                     <p style="color: #EC7404;"">Inversión</p>
                 </a>
             </li>
         </ul>
         `;
-        console.log('aaaa')
     }
 }
 
