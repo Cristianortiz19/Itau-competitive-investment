@@ -56,6 +56,48 @@ body {
     border-radius: 40px;
 }
 
+.inversion-colaborativa {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    background: var(--Gradient, linear-gradient(99deg, #EC7404 5.95%, rgba(255, 152, 56, 0.85) 98.06%));
+}
+
+.inversion-colaborativa h2 {
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 40px;
+    width: 50%;
+    margin-bottom: 1%;
+    margin-top: 5%;
+    color: white;
+
+}
+
+.inversion-colaborativa p {
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 18px;
+    width: 40%;
+    margin-bottom: 1%;
+    color: white;
+}
+
+.inversion-colaborativa a {
+    background-color: white;
+    color: #EC7404;
+    text-decoration: none;
+    width: 110px;
+    padding: 15px 25px;
+    padding-left: 30px;
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    border-radius: 40px;
+    margin-bottom: 5%;
+}
+
 @font-face {
     font-family: 'SF Pro Display';
     src: url('../../fonts/SF-Pro-Display-Regular.ttf') format('truetype');
