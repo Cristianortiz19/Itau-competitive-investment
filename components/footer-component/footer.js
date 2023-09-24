@@ -18,7 +18,7 @@ class FooterComponent extends HTMLElement {
 
     render() {
         this.innerHTML = `
-        <link rel="stylesheet" href="./components/footer-component/style.css">
+        <link rel="stylesheet" href="../../components/footer-component/style.css">
         <div class="footer-component">
         <div>
             <h3>Sobre nosotros</h3>

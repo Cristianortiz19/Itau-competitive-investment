@@ -8,7 +8,7 @@ body {
 }
 
 .landing-banner{
- background-image: url('./src/public/images/landing-banner-bg.webp');
+ background-image: url('../../src/public/images/landing-banner-bg.webp');
  background-size: cover;
  background-color: center;
  width: auto;
@@ -99,7 +99,7 @@ body {
 }
 
 .confiable {
-    background-image: url('./src/public/images/banner-confiable-bg.webp');
+    background-image: url('../../src/public/images/banner-confiable-bg.webp');
     background-size: cover;
     background-color: center;
     padding: 20% 12%;
@@ -145,18 +145,18 @@ body {
 
 @font-face {
     font-family: 'SF Pro Display';
-    src: url('./src/fonts/SF-Pro-Display-Regular.ttf') format('truetype');
+    src: url('../../src/fonts/SF-Pro-Display-Regular.ttf') format('truetype');
     font-weight: 500;
 }
 
 @font-face {
     font-family: 'SF Pro Display';
-    src: url('./src/fonts/SF-Pro-Display-Semibold.ttf') format('truetype');
+    src: url('../../src/fonts/SF-Pro-Display-Semibold.ttf') format('truetype');
     font-weight: 600;
 }
 
 @font-face {
     font-family: 'SF Pro Display';
-    src: url('./src/fonts/SF-Pro-Display-Bold.ttf') format('truetype');
+    src: url('../../src/fonts/SF-Pro-Display-Bold.ttf') format('truetype');
     font-weight: 700;
 }

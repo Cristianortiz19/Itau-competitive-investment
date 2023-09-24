@@ -18,7 +18,7 @@ class TopBar extends HTMLElement {
 
     render() {
         this.innerHTML = `
-        <link rel="stylesheet" href="./components/top-bar/style.css">
+        <link rel="stylesheet" href="../../components/top-bar/style.css">
         <ul class="top-bar">
             <li>
                 <a href="">

@@ -18,7 +18,7 @@ class HeaderComponent extends HTMLElement {
 
     render() {
         this.innerHTML = `
-        <link rel="stylesheet" href="./components/header-component/style.css">
+        <link rel="stylesheet" href="../../components/header-component/style.css">
         <div class="header-component">
             <img src="../../src/public/icons/itau-logo.svg" alt="">
             <ul class="header-options">

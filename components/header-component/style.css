@@ -9,14 +9,14 @@
     background-color: #EC7404;
     justify-content: space-around;
     position: fixed;
-    top: 55px;
+    top: 53px;
     left: 0;
     width: 100%;
     z-index: 1000;
 }
 
 .header-component img {
-    width: 55px;
+    width: 62px;
     padding: 5px;
 }
 
