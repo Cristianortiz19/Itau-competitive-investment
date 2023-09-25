@@ -108,12 +108,70 @@ body {
 .top-movers div {
     padding: 2% 12%;
 }
+
+.top-movers div h2 {
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.top-movers div p {
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+}
+
 .top-movers img {
     width: 100%;
 }
 
 .ultimas-noticias {
     background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.ultimas-noticias h1 {
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 12%;
+}
+
+.ultimas-noticias p {
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    margin-left: 12%;
+}
+
+.ultimas-noticias div {
+    background-image: url('../../src/public/images/ultimas-noticias-bg.webp');
+    background-size: cover;
+    background-color: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
+    padding: 120px 40px;
+    text-align: right;
+    justify-content: right;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.ultimas-noticias div h2 {
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    color: white;
+}
+
+.ultimas-noticias div a {
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    color: #EC7404;
+    text-decoration: none;
+    border: 1px solid #EC7404;
+    margin-left: auto;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border-radius: 30px;
 }
 
 @font-face {
