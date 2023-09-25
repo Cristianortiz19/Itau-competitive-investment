@@ -8,6 +8,15 @@ body {
     margin-top: 120px;
 }
 
+
+.tab-bar {
+    background-color: white;
+}
+
+.content {
+    background-color: white;
+}
+
 @font-face {
     font-family: 'SF Pro Display';
     src: url('../../src/fonts/SF-Pro-Display-Regular.ttf') format('truetype');
