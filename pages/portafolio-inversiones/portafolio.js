@@ -1,7 +1,6 @@
 const tabButtons = document.querySelectorAll('.tab-button');
 const tabContents = document.querySelectorAll('.tab-content');
 
-// Seleccionar la pestaña "Características" por defecto
 tabButtons[0].classList.add('active');
 tabContents[0].style.display = 'block';
 
