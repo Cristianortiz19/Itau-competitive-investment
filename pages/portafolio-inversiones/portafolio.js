@@ -7,7 +7,9 @@ tabContents[0].style.display = 'block';
 tabButtons.forEach(button => {
   button.addEventListener('click', () => {
     // Remover la clase 'active' de todas las pestañas y contenidos
-    tabButtons.forEach(btn => btn.classList.remove('active'));
+    tabButtons.forEach(btn => {
+        btn.classList.remove('active')
+    });
     tabContents.forEach(content => content.style.display = 'none');
 
     // Agregar la clase 'active' a la pestaña clickeada y su contenido relacionado
