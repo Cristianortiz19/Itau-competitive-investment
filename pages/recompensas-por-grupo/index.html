@@ -6,15 +6,86 @@
     <title>Recompensas por grupo</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body style="background-color: white;">
     <top-bar></top-bar>
     <header-component></header-component>
     
-
     <section class="desafios">
+        <div class="desafios-logo">
+            <img src="../../src/public/icons/desafios-page.svg" alt="">
+            <h2>Desafíos</h2>
+        </div>
 
+        <div class="desafios-tab">
+            <p style="margin-right: 30px;">Mi mes ▾</p>
+            <div>
+                <img src="../../src/public/icons/check.svg" alt="">
+                <p>metas completas</p>
+            </div>
+            <div>
+                <img src="../../src/public/icons/colaboradores.svg" alt="">
+                <p>3 Colaboradores</p>
+            </div>
+        </div>
+
+        <div class="mis-metas">
+            <div class="mis-metas-profile">
+                <img src="../../src/public/images/compartida-profile-3.webp" alt="">
+                <h3>Mis metas</h3>
+            </div>
+
+            <div class="mis-metas-options">
+                <p>activas</p>
+                <p>Atrasadas</p>
+                <p>Completas</p>
+            </div>
+            <hr>
+            <div class="mis-metas-tasks">
+                <div>
+                    <img src="../../src/public/icons/mis-metas-check.svg" alt="">
+                    <p>Invertir 1 millón mensuales</p>
+                </div>
+                <hr>
+                <div>
+                    <img src="../../src/public/icons/mis-metas-check.svg" alt="">
+                    <p>Lograr una rentabilidad de 15%</p>
+                </div>
+                <hr>
+            </div>
+            <div style="display: flex; align-items: center; filter: opacity(0.5);">
+                <img src="../../src/public/icons/mis-metas-check.svg" alt="" style="margin-right: 20px;">
+                <p>Haz click aquí para gregar una meta</p>
+            </div>
+        </div>
     </section>
 
+    <section class="desafios-mes">
+        <div class="desafios-mes-title">
+            <h1>Desafíos del mes</h1>
+            <div>
+                <img src="../../src/public/icons/time.svg" alt="">
+                <p>18 días restantes</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h4>Total invertido</h4>
+                <div>
+                    <h1>15.562.809</h1>
+                    <p>COP</p>
+                </div>
+            </div>
+            <div>
+                <h4>Dinero restante</h4>
+                <div>
+                    <h1>9.437.191</h1>
+                    <p>COP</p>
+                </div>
+            </div>
+        </div>
+        <img class="desafios-mes-img" src="../../src/public/images/desafios-mes-1.webp" alt="">
+        <img class="desafios-mes-img" src="../../src/public/images/desafios-mes-2.webp" alt="">
+    </section>
 
     <footer-component></footer-component>
     <script src="./portafolio.js"></script>
