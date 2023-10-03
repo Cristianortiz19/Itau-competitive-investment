@@ -102,14 +102,41 @@ hr {
 
 .desafios-mes-title div {
     display: flex;
+    align-items: center;
+}
+
+.desafios-mes-title div img {
+    width: 30px;
+    margin-right: 10px;
 }
 
 .desafios-mes-title h1 {
     font-size: 40px;
+    margin-right: 30px;
 }
 
 .desafios-mes-img {
     width: 100%;
+}
+
+.desafios-mes-data {
+    display: flex;
+    margin: 5% 0%;
+}
+
+.desafios-mes-data nav h4{
+    color: #EC7404;
+}
+
+.desafios-mes-data nav div {
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.desafios-mes-data nav div h1 {
+    font-size: 40px;
+    font-weight: 500;
 }
 
 @font-face {
